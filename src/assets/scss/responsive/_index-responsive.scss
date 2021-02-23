@@ -1,0 +1,84 @@
+#zoug h2, #builder h2, #sms h2{
+    text-align: center;
+    font-size: 44px;
+}
+#zoug p, #builder p, #sms p{
+    padding: 0;
+    font-size: 25px;
+    line-height: 28px;
+}
+#zoug .icons span, #builder .icons span, #sms .icons span {
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 600;
+}
+#zoug .logo, #builder .logo, #sms .logo {
+    margin-bottom: 40px;
+    text-align: center;
+    display: block;
+    margin: 0 auto 27px auto;
+}
+#builder .logo{
+    margin: 0 auto 27px auto;
+}
+.bt-mb-center{
+    text-align: center;
+    a{
+        font-size: 25px;
+        .bt .icon {
+            vertical-align: -6px;
+        }
+    }
+}
+
+#carousel-depos .title {
+    font-size: 31px;
+}
+#carousel-depos .title .obj-5 {
+    position: absolute;
+    right: -77px;
+    top: -97px;
+    z-index: 9;
+}
+#carousel-depos .title .obj-2 {
+    position: absolute;
+    left: -7px;
+    top: 78px;
+}
+#carousel-depos .title .obj-1 {
+    position: absolute;
+    left: 120px;
+    top: -53px;
+}
+#carousel-depos .title .obj-3 {
+    position: absolute;
+    right: 40px;
+    top: 95px;
+}
+#carousel-depos .title .obj-4 {
+    position: absolute;
+    right: 135px;
+    top: -48px;
+}
+#carousel-depos .box {
+    width: 550px;
+    height: 300px;
+    p.name{
+        font-size: 31px;
+    }
+    p.empresa {
+        font-size: 25px;
+    }
+    p.description {
+        font-size: 23px;
+    }
+}
+#vamos-conversar > div .title {
+    font-size: 35px;
+}
+#vamos-conversar > div span {
+    font-size: 22px;
+}
+#vamos-conversar img{
+    display: none;
+}

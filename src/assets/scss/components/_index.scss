@@ -1,0 +1,281 @@
+@import './colors.scss';
+
+#banner{
+    background-color: #08A8B4;
+    width: 100%;
+    padding: 170px 0;
+    text-align: center;
+    .banner-title{
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .sub-title{
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .bt{
+        border: 1px solid $orange;
+    }
+    .info-hover{
+        display: none;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        span{
+            display: none;
+        }
+    }
+}
+
+#zoug,
+#builder,
+#sms{
+    .logo{
+        margin-bottom: 40px;
+    }
+    h2{
+        font-size: 48px;
+        line-height: 56px;
+        font-weight: 700;
+        color: #333333;
+        margin-bottom: 24px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 24px;  
+        margin: 0 0 40px 0;
+        padding: 0px 75px 0 0;
+    }
+    .icons{
+        text-align: center;
+        img{
+            display: block;
+            margin: 0 auto 5px auto;
+        }
+        span{
+            text-align: center;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .bt{
+        box-shadow: $shadow-low;
+        padding: 13px 25px;
+        margin-top: 40px;
+    }
+    .bt:hover{
+        color: #000;
+    }
+}
+
+#zoug{
+    margin-top: 130px;
+    .images{
+        position: relative;
+        text-align: center;
+        .zoug-image1{
+            display: inline-block;
+            margin-top: 80px;
+        }
+        .zoug-image2{
+            position: absolute;
+            top: 0px;
+            right: 0;
+        }
+    }
+    .bt .icon{
+        color:$orange;
+    }
+}
+
+#builder{
+    margin-top: 163px;
+    .logo{
+        margin-bottom: 68px;
+    }
+    .images{
+        position: relative;
+        text-align: center;
+        .builder-image1{
+            float: right;
+        }
+        .builder-image2{
+            position: absolute;
+            top: 65px;
+            left: 0;
+        }
+    }
+    .bt .icon{
+        color:$green;
+    }
+}
+
+#sms{
+    margin-top: 132px;
+    .images{
+        position: relative;
+        text-align: center;
+        .sms-image1{
+            display: inline-block;
+        }
+        .sms-image2{
+            position: absolute;
+            top: 65px;
+            right: 50px;
+        }
+        .sms-image3{
+            position: absolute;
+            top: 175px;
+            right: 0;
+        }
+    }
+    .bt .icon{
+        color:$green;
+    }
+}
+
+#carousel-depos{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+    .title{
+        background: #F2F2F2;
+        text-align: center;
+        font-size: 32px;
+        line-height: 40px;
+        font-weight: 700;
+        box-sizing: border-box;
+        padding: 80px 0 115px 0;
+        position: relative;
+        .obj-1{
+            position: absolute;
+            left: 120px;
+            top: 7px;
+        }
+        .obj-2{
+            position: absolute;
+            left: 150px;
+            top: 48px;
+        }
+        .obj-3{
+            position: absolute;
+            right: 100px;
+            top: 45px
+        }
+        .obj-4{
+            position: absolute;
+            right: 135px;
+            top: 48px
+        }
+        .obj-5{
+            position: absolute;
+            right: 65px;
+            top: -55px;
+        }
+    }
+    .box{
+        width: 416px;
+        height: 248px;
+        box-shadow: $shadow-medium;
+        box-sizing: border-box;
+        padding: 15px 25px;
+        margin-bottom: 50px;
+        background: #fff;
+        .image{
+            text-align: center;
+            img{
+                display: inline-block;
+            }
+        }
+        p{
+            margin: 0;
+        }
+        p.name{
+            color: #007E82;
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        p.empresa{
+            font-size: 12px;
+            background: #007E82;
+            font-weight: 500;
+            opacity: 0.4;
+            border-radius: 30px;
+            box-sizing: border-box;
+            display: inline-block;
+            padding: 6px 20px;
+            margin-bottom: 24px;
+        }
+        p.description{
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .carousel{
+        width: 100%;
+        margin-top: -80px;
+        .BrainhubCarousel__arrows{
+            background-color: #383d5a00;
+            outline: none;
+            span{
+                border-color: #383D5A;
+                outline: none;
+            }
+        }
+        .BrainhubCarousel__arrowLeft{
+            position: absolute;
+            left: calc(50% - 21px);
+            bottom: -40px;
+            border-color: #383D5A;
+        }
+        .BrainhubCarousel__arrowRight{
+            position: absolute;
+            left: calc(50% + 21px);
+            bottom: -40px;
+            border-color: #383D5A;
+        }
+    }
+}
+
+#vamos-conversar{
+    margin-top: 100px;
+    text-align: center;
+    img{
+        position: absolute;
+        left: 20px;
+        bottom: 0;
+    }
+    > div{
+        background: #00A7B3;
+        color: #fff;
+        .title{
+            font-size: 24px;
+            margin: 48px 0 0 0;
+        }
+        .subtitle{
+            font-weight: 700;
+            font-size: 48px;   
+            margin: 7px 0 16px 0;
+        }
+        span{
+            font-size: 16px;
+            line-height: 24px;
+            margin: 0 0 40px 0;
+            display: block;
+        }
+        .bt{
+            border: 1px solid #fff;
+            display: inline-block;
+            margin: 0 40px;
+            width: 190px;
+            height: 40px;
+            padding: 0 0;
+            text-align: center;
+            line-height: 40px;
+            margin-bottom: 40px;
+        }
+    }
+}

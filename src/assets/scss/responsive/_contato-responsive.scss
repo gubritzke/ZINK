@@ -1,0 +1,58 @@
+#contato #newsletter .news-box input[type="text"] {
+    height: 60px;
+}
+#contato #newsletter .news-box form {
+    width: 100%;
+}
+#contato #newsletter .news-box {
+    box-sizing: border-box;
+    padding: 40px 45px 40px 45px;
+}
+#contato #newsletter .news-box p.news-text {
+    font-size: 22px;
+}
+#contato #newsletter .news-box input[type="text"] {
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+}
+#contato #newsletter .news-box button {
+    height: 60px;
+    svg{
+        width: 40px;
+        height: 30px;
+    }
+}
+#contato #newsletter .news-box .lb-checkbox {
+    font-size: 25px;
+    margin-top: 23px;
+    line-height: 18px;
+    margin-bottom: 45px;
+    a {
+        font-size: 25px;
+    }
+}
+#contato #canais li{
+    font-size: 25px;
+}
+#contato #canais li a{
+    font-size: 25px;
+}
+#contato #parceiro .box img{
+    display: none;
+}
+#contato #parceiro .box {
+    width: 100%;
+    padding: 51px 27px 51px 27px;
+}
+#contato #parceiro .box .text-1 {
+    font-size: 23px;
+}
+#contato #parceiro .box .text-2 {
+    font-size: 26px;
+    margin-bottom: 28px;
+}
+#contato #parceiro .box a {
+    font-size: 26px;
+    padding: 25px 42px;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import './components/colors';
+
+@import './components/header';
+@import './components/footer';
+@import './components/index';
+@import './components/produtos';
+@import './components/sobre';
+@import './components/contato';
+@import './components/ajuda';
+@import './components/blog';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+input, button, textarea{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    max-width: 1105px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.bt{
+    padding: 20px 25px;
+    font-weight: 500;
+    line-height: 0;
+    border: none;
+    display: inline-block;
+    
+    
+    .icon{
+        display: inline-block;
+        vertical-align: -2px;
+        
+    }
+}
+.bt:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+}
+.swal-button{
+    background: $orange;
+    width: 150px;
+}
+.swal-footer {
+    text-align: center;
+}

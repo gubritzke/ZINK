@@ -1,0 +1,36 @@
+@import './components/colors';
+
+@media screen and (max-width: 750px){
+
+    .content{
+        width: 90%;
+    }
+
+    a{
+        color: #000;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .bt {
+        padding: 26px 36px;
+        font-weight: 500;
+        line-height: 0;
+        border: none;
+        display: inline-block;
+        font-size: 26px;
+    }
+    #header{
+        position: fixed;
+        background-color: #00A7B3;
+        z-index: 999;
+    }
+
+
+    @import './responsive/hamburguer-menu';
+    @import './responsive/index-responsive';
+    @import './responsive/footer-responsive';
+    @import './responsive/sobre-responsive';
+    @import './responsive/contato-responsive';
+    @import './responsive/ajuda-responsive';
+    @import './responsive/produtos-responsive';
+}

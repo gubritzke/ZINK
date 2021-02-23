@@ -1,0 +1,369 @@
+#ajuda{
+    #produtos{
+        margin-top: -50px;
+        a.box{
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+            display: flex;
+            width: 100%;
+            height: 224px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 21px;
+            background: #fff;;
+        }
+        .bt{
+            width: 100%;
+            height: 40px;
+            font-size: 16px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.14);
+            margin: 12px 0 0 0;
+            padding: 20px 20px;
+            color: #707070;
+            .icon{
+                float: right;
+                margin-top: -6px;
+            }
+        }
+        .bt:hover{
+            color: #707070;
+        }
+    }
+
+    #contato{
+        .box{
+            width: 80%;
+            height: 173.16px;
+            background: #08A8B4;
+            display: block;
+            margin: 80px auto 150px auto;
+            text-align: center;
+            position: relative;
+            p{
+                font-weight: bold;
+                font-size: 24px;
+                margin: 35px 0 25px 0px;
+                display: inline-block;
+                width: 100%;
+            }
+            .bt{
+                border: 1px solid #fff;
+                padding: 17px 46px;
+                display: inline-block;
+            }
+            .bt:hover{
+                color: #fff;;
+            }
+            .image1{
+                position: absolute;
+                top: -26px;
+                right: 22px;
+            }
+            .image2{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+            }
+
+        }
+    }
+}
+
+#desenvolvedores{
+    #line-banner{
+        .box{
+            background: #FFFFFF;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+            text-align: center;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -25px;
+            h1{
+                color: #999999; 
+                font-size: 24px;
+                font-weight: 500;
+                margin: 0;
+            }
+        }
+    }
+    #topo{
+        .logo{
+            display: block;
+            margin-top: 60px;
+            margin-bottom: 40px;
+        }
+        .LogoZoug{
+            background: url(../../img/ajuda/logo-Zoug.svg);
+            width: 167.41px;
+            height: 54px;
+        }
+        .LogoBuilder{
+            background: url(../../img/ajuda/logo-Builder.svg);
+            width: 212px;
+            height: 54px;
+        }
+        .logoSms{
+            background: url(../../img/ajuda/logo-Sms.svg);
+            width: 159.41px;
+            height: 54px;
+        }
+        h2{
+            font-weight: 500;
+            font-size: 48px;
+            margin-bottom: 35px;
+        }
+        p{
+            font-weight: normal;
+            font-size: 16px;
+        }
+        img{
+            margin-top: 35px;
+        }
+    }
+    #conteudo{
+        .box-documents{
+            margin-bottom: 60px;
+        }
+        .line-title{
+            border-bottom: 1px solid #E5E5E5;
+            margin-bottom: 18px;
+            h3{
+                font-weight: 500;
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+        }
+        .bt{
+            width: 240px;
+            height: 40px;
+            font-size: 16px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.14);
+            margin: 0 25px 0 0;
+            padding: 20px 20px;
+            color: #707070;
+            .icon{
+                float: right;
+                margin-top: -12px;
+            }
+        }
+        .bt:hover{
+            color: #707070;
+        }
+    }
+}
+
+#clientes{
+    #line-banner{
+        .box{
+            background: #FFFFFF;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+            text-align: center;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -25px;
+            h1{
+                color: #999999; 
+                font-size: 24px;
+                font-weight: 500;
+                margin: 0;
+            }
+        }
+    }
+    #topo{
+        .logo{
+            display: block;
+            margin-top: 60px;
+            margin-bottom: 40px;
+        }
+        .LogoZoug{
+            background: url(../../img/ajuda/logo-Zoug.svg);
+            width: 167.41px;
+            height: 54px;
+        }
+        .LogoBuilder{
+            background: url(../../img/ajuda/logo-Builder.svg);
+            width: 212px;
+            height: 54px;
+        }
+        .logoSms{
+            background: url(../../img/ajuda/logo-Sms.svg);
+            width: 159.41px;
+            height: 54px;
+        }
+        h2{
+            font-weight: 500;
+            font-size: 48px;
+            margin-bottom: 35px;
+        }
+        p{
+            font-weight: normal;
+            font-size: 16px;
+        }
+        img{
+            margin-top: 35px;
+        }
+    }
+    #conteudo{
+        .box-documents{
+            margin-bottom: 60px;
+            .line-title{
+                border-bottom: 1px solid #E5E5E5;
+                margin-bottom: 18px;
+                h3{
+                    font-weight: 500;
+                    font-size: 32px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        form{
+            margin-bottom: 80px;
+            label{
+                width: 100%;
+                margin-bottom: 50px;
+                input{
+                    width: 85%;
+                    border: none;
+                    border-bottom: 1px solid #666666;
+                    color: #666666;
+                    font-weight: normal;
+                    font-size: 16px;
+                    padding: 0px 0 2px 0;
+                    font-weight: 500;
+                }
+            }
+            .bt{
+                padding: 20px 60px;
+                margin-top: -20px;
+            }
+        }
+        .tit-cont{
+            font-weight: 500;
+            font-size: 24px;
+            color: #333333;
+            margin-bottom: 35px;
+            display: block;
+        }
+        ul{
+            list-style-type: none;
+            color: #868686;
+            a{
+                color: #868686;
+            }
+            img{
+                margin-right: 25px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+#tutoriais{
+    #line-banner{
+        .box{
+            background: #FFFFFF;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+            text-align: center;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: -25px;
+            h1{
+                color: #999999; 
+                font-size: 24px;
+                font-weight: 500;
+                margin: 0;
+            }
+        }
+    }
+    #topo{
+        .logo{
+            display: block;
+            margin-top: 60px;
+            margin-bottom: 40px;
+        }
+        .LogoZoug{
+            background: url(../../img/ajuda/logo-Zoug.svg);
+            width: 167.41px;
+            height: 54px;
+        }
+        .LogoBuilder{
+            background: url(../../img/ajuda/logo-Builder.svg);
+            width: 212px;
+            height: 54px;
+        }
+        .logoSms{
+            background: url(../../img/ajuda/logo-Sms.svg);
+            width: 159.41px;
+            height: 54px;
+        }
+        h2{
+            font-weight: 500;
+            font-size: 48px;
+            margin-bottom: 35px;
+        }
+        p{
+            font-weight: normal;
+            font-size: 16px;
+        }
+        img{
+            margin-top: 35px;
+        }
+
+        
+    }
+    #conteudo{
+        .box-documents{
+            margin-bottom: 60px;
+            span{
+                font-weight: bold;
+                font-size: 16px;
+                margin: 7px 0 14px 0;
+                display: block;
+            }
+            p{
+                font-weight: normal;
+                font-size: 16px;
+            }
+        }
+        .line-title{
+            border-bottom: 1px solid #E5E5E5;
+            margin-bottom: 18px;
+            h3{
+                font-weight: 500;
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+        }
+        .bt{
+            width: 240px;
+            height: 40px;
+            font-size: 16px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.14);
+            margin: 0 25px 0 0;
+            padding: 20px 20px;
+            color: #707070;
+            .icon{
+                float: right;
+                margin-top: -12px;
+            }
+        }
+        .bt:hover{
+            color: #707070;
+        }
+        .flex{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            div{
+                width: 32%;
+                display: block;
+            }
+        }
+    }
+}
